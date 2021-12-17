@@ -14,12 +14,19 @@
 
 ## About <a name = "about"></a>
 
-This is a project in progress creating a battery operated digital picture frame. I hated the hassel with commercial digital picture frames which are only showing pictures while connectd to mains. So it was down for most of the time showing a black screen.
+This is a project creating a battery operated digital picture frame. I hated the hassel with commercial digital picture frames which are only showing pictures while connectd to mains. So it was down for most of the time showing a black screen.
 My goal was to design a concept for a digital picture frame with very low power consumption. So the choice fell towards a esp32 board with a very low deep sleep current, together with a low power E-paper display, which only consumes power during picture change.
 
-## Getting Started <a name = "getting_started"></a>
+<p align="center">
+  <img src="./docs/img1.jpg" height="500" />
+</p>
+
 
 The Firebeetle ESP32 has a deep sleep current of only 0.053mA according to great research of [The guy with the swiss accent](https://docs.google.com/spreadsheets/d/1Mu-bNwpnkiNUiM7f2dx8-gPnIAFMibsC2hMlWhIHbPQ/edit#gid=0)
+
+# Build Instruction <a name = "getting_started"></a>
+
+For this build you have to source some parts and 3d print some.
 
 ## BOM <a name = "bom"></a>
 
@@ -51,9 +58,22 @@ First solder a wire together with the brass screw. This can be very tricky becau
 If you struggle, an idea is to drill a 1.5-2.0mm hole into the screw. Add solder to the hole and heat it up so you can put the wire into the hole with the hot solder.
 Drill a hole with a 4.5mm drill bit into the frame where you want to place the button-screw.
 
+<p align="center">
+  <img src="./docs/img4.jpg" height="400" />
+  <img src="./docs/img5.jpg" height="400" />
+  <img src="./docs/img2.jpg" height="400" />
+  <img src="./docs/img3.jpg" height="400" />
+  <img src="./docs/img7.jpg" height="400" />
+</p>
+
 ## Electrical Build <a name = "electronics"></a>
 
-Connect the ESP board according to the wiring sketch 
+Connect the ESP board according to the wiring sketch.
+
+<p align="center">
+  <img src="./docs/pinconnection.jpg" height="400" />
+  <img src="./docs/img6.jpg" height="500" />
+</p>
 
 ## Preparing the Pictures <a name = "pictures"></a>
 
